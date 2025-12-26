@@ -61,7 +61,6 @@ let targets = JSON.parse(localStorage.getItem("targets")) || [];
 let nick = nickinput.value;
 let newname;
 let money = 0;
-let kumbaraaa;
 let kumbaraaa = "kumbara1.png";
 
 kumbara.src = localStorage.getItem("kumbara");
@@ -409,4 +408,5 @@ addBtn.onclick = () => {
 };
 
 renderTargets();
+
 
