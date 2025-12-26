@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumbara App</title>
+    <link rel="shortcut icon" href="kumbara3.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nickpage">
+        <label id="label" for="nickinput">Write your name</label><br><br><br>
+        <input id="nickinput" type="text"><br><br><br>
+        <button id="submit">Submit</button>
+    </div>
+
+    <div id="mainpage">
+        <div class="topdiv">
+            <h2 id="h2">Welcome back user!</h2>
+            <p>You have <b id="streak">3-day</b> streak</p>
+        </div>
+        <img id="kumbara" style="max-width: 200px; max-height: 200px; cursor: pointer;" src="kumbara1.png">
+        <p class="foto">Tap to bank for more detailed information</p>
+        <div id="target-list"></div>
+        <button id="addm" class="buttons">Add Money</button>
+        <button id="removem" class="buttons">Remove Money</button>
+        <button id="burst" class="buttons">Burst The Piggy Bank</button><br><br><br><br>
+    </div>
+
+    <div id="kumbarapage">
+        <img id="kumbaraa" style="max-width: 200px; max-height: 200px;" src="kumbara1.png">
+        <h3 id="totalm">Total Money: 235 TL</h3>
+        <div style="margin-top: 20px;" class="kmbrinf">
+            <label id="uyari"></label><br>
+            <input class="inputt" type="text" id="target-name" placeholder="Target name"><br>
+            <input class="inputt" type="number" id="target-amount" placeholder="Target amount (TL)"><br>
+            <button id="add-target">Add Target</button>
+        </div>
+        <div style="margin-top: 20px;" class="kmbrinf">
+            <div>
+                <label>Total added money</label><br>
+                <p id="taddm">835 TL</p>
+            </div>
+            <div>
+                <label>Total removed money:</label><br>
+                <p id="tremom">230 TL</p>
+            </div>
+        </div>
+        <br><br><br><br>
+    </div>
+
+    <div class="minipage" id="addmoney">
+        <label class="x" id="xa">X</label>
+        <label id="uyarii">Enter the amount you want to add</label><br><br>
+        <input id="addinp" type="number" class="minput">
+        <br><br>
+        <button id="addmoneybt" class="mbtn">Add</button>
+    </div>
+
+    <div class="minipage" id="removemoney">
+        <label class="x" id="xb">X</label>
+        <label id="uyariii">Enter the amount you want to remove</label><br><br>
+        <input id="removeinp" type="number" class="minput">
+        <br><br>
+        <button id="removemoneybt" class="mbtn">Remove</button>
+    </div>
+
+    <div class="minipage" id="burstscreen">
+        <label class="x" id="xc">X</label>
+        <label>Are you sure?</label><br><br>
+        <button style="background-color: red;" id="burstbtn" class="mbtn">Burst</button>
+    </div>
+
+    <div id="forumpage">
+        <h1>Forum</h1>
+        <p>This page is still developing</p>
+    </div>
+
+    <div id="setpage">
+        <h1>Settings</h1>
+        <div class="set">
+            <h2>Change username</h2>
+            <label id="changelbl"></label>
+            <input id="change" type="text" placeholder="  Write here"><br><br>
+            <button id="changebt">Change</button>
+        </div>
+        <div style="margin-top: 20px;" class="set">
+            <h2>Change Bank</h2>
+            <label style="color: rgb(0, 134, 179);" id="changebanklabel">Select one!</label><br>
+            <div class="bank-list">
+                <div id="kumbara1" class="bank"><img src="kumbara1.png" alt="kumbara1"> </div>
+                <div id="kumbara2" class="bank"><img src="kumbara2.png" alt="kumbara2"></div>
+                <div id="kumbara3" class="bank"><img src="kumbara3.png" alt="kumbara3"></div>
+                <div id="kumbara4" class="bank"><img src="kumbara4.png" alt="kumbara4"></div>
+            </div>
+        </div>
+        <div style="margin-top: 20px;" class="set">
+            <h2>Delete account</h2>
+            <button id="deleteac" class="delete">Delete</button>
+        </div><br><br><br><br>
+    </div>
+
+    <div class="minipage" id="deletescreen">
+        <label class="x" id="xd">X</label>
+        <label>Are you sure?</label><br><br>
+        <button style="background-color: red;" id="delbtn" class="mbtn">Delete</button>
+    </div>
+
+    <div id="callpage">
+        <div style="background-color: rgb(161, 255, 20);" class="topdiv">
+            <h2 class="contact">Contact information</h2>
+            <p class="contact">If you need contact with me you can use this links.</p>
+        </div>
+        <button style="margin-top: 20px;" class="buttons"><a class="aa" href="https://github.com/ryontex"><i class="fa-brands fa-github"></i> GitHub</a></button>
+        <button class="buttons"><a class="aa" href="https://www.instagram.com/ibbraahimt/"><i class="fa-brands fa-instagram"></i> Instagram</a></button>
+        <button class="buttons"><a class="aa" href="https://x.com/ryontex0/"><i class="fa-brands fa-square-x-twitter"></i>  X (Twitter)</a></button>
+        <button class="buttons"><a class="aa" href="https://www.reddit.com/u/ibrahim0t/"><i class="fa-brands fa-reddit"></i> Reddit</a></button>
+        <button class="buttons"><a class="aa" href="https://youtube.com/@ryontex"><i class="fa-brands fa-youtube"></i> YouTube</a></button>
+    </div>
+
+    <div id="infopage">
+        <div style="background-color: rgb(0, 255, 42);" class="topdiv">
+            <h2 class="contact">App informations</h2>
+            <p class="contact">Informations of about the app is here!</p>
+        </div><br>
+        <div style="background-color: rgb(0, 255, 42);" class="topdiv">
+            <p class="contact"><b>App Name:</b> Kumbara</p>
+            <p class="contact"><b>App Version:</b> 0.1.3</p>
+            <p class="contact"><b>Last update date:</b> 15.11.2025</p>
+            <p class="contact"><b>Developer Name:</b> <a style="text-decoration: none; color: black;" href="https://ryontex.github.io/">Ryontex</a></p>
+        </div>
+    </div>
+
+    <div id="navbar" class="navbar">
+        <button id="homebtn"><i class="fa-solid fa-house"></i></button>
+        <button id="forumbtn"><i class="fa-solid fa-comment"></i></button>
+        <button id="setbtn"><i class="fa-solid fa-gear"></i></button>
+        <button id="callbtn"><i class="fa-solid fa-phone"></i></button>
+        <button id="infobtn"><i class="fa-solid fa-circle-info"></i></button>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/e45c9f02c6.js" crossorigin="anonymous"></script>
+</body>
+</html>
