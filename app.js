@@ -66,7 +66,6 @@ let kumbaraaa;
 kumbara.src = localStorage.getItem("kumbara");
 kumbaraa.src = localStorage.getItem("kumbara");
 money = localStorage.getItem("moneyls");
-localStorage.setItem("kumbara", kumbaraaa);
 
 h2.textContent = `Welcome back, ${nick}!`
 totalm.textContent = `Total Money: ${money} TL`;
@@ -408,6 +407,7 @@ addBtn.onclick = () => {
 };
 
 renderTargets();
+
 
 
 
