@@ -179,7 +179,7 @@ removemoneybt.onclick = function(){
     }
 
     else{
-        uyariii.textContent = "Added successfully!";
+        uyariii.textContent = "Removed successfully!";
         uyariii.style.color = "green";
         money = Number(money) - Number(removevalue);
         localStorage.setItem("moneyls" , String(money));
@@ -407,6 +407,7 @@ addBtn.onclick = () => {
 };
 
 renderTargets();
+
 
 
 
